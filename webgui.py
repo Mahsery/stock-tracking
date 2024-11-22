@@ -4,7 +4,6 @@ import time
 from datetime import datetime
 import plotly.graph_objects as go
 from scraper import get_prediction, get_stock_data
-import json
 import os
 from dotenv import load_dotenv
 

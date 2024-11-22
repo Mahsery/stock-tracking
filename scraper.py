@@ -1,16 +1,13 @@
 import json
-import subprocess
 import time
 import requests
-import pandas as pd
-from datetime import datetime, date, timedelta
+from datetime import datetime, timedelta
 from rich import print
 from rich.live import Live
 from rich.table import Table
 from rich.console import Console
 from bs4 import BeautifulSoup
 import random
-import yfinance as yf
 
 def get_stock_data(symbol):
     headers = {
